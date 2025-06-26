@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.heading-item {
+    background-image: url("/images/earth.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 175px;
+    margin-top: -20px;
+    color: white;
+    padding: 60px 0px ;
+    position: relative;
+    text-shadow: 0 0 6px #00fff7;
+}
+
+.heading-item .heading1{
+    display: block;
+    width: fit-content;
+    text-align: center;
+    background-color: #1a1a40;
+    box-shadow: 0 0 12px rgba(0, 255, 247, 0.3);
+    color: #00fff7;
+    margin: 0 auto;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+
+.heading-item .heading2{
+    display: block;
+    width: 420px;
+    font-weight: 100;
+    text-align: center;
+    background-color: #1a1a40;
+    box-shadow: 0 0 12px rgba(0, 255, 247, 0.3);
+    color: #00fff7;
+    margin: 25px auto;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+.heading-item .heading1, .heading-item .heading2 {
+    box-shadow: 0 0 12px rgba(0, 255, 247, 0.5);
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #01014b	;
+}
+
+.activity{
+    padding: 10px 5px;
+    margin: 30px 10px;
+   background-color: #1a1a40;
+    color: #eeeeee;
+   font-size: 16px; 
+   box-shadow: 0 0 10px #00fff7;
+   
+}
+
+.activity h3 {
+    font-size: 30px;
+    color: #00fff7;
+    margin-bottom: 40px;
+}
+
+.inti-body {
+    display: flex;
+    flex-direction: row;
+    gap: 12px
+}
+
+.round {
+  width: 100px;           
+  height: 100px;
+  border-radius: 50%;     
+  object-fit: cover;     
+}
+.round:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px #00fff7;
+}
+.activity3 {
+    font-size: 22px;
+    color: #00fff7
+}
+
+img {
+    width: 100px;
+}
+
+.bawahan{
+    display: flex;
+    background-color: #1a1a40;
+    color: white;
+    box-shadow: 0 0 10px #00fff7;
+    margin: 20px 160px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#flex1 {
+    flex: 5;
+    border-radius: 8px;
+    margin: 0 20px 0 0
+}
+
+#flex2 {
+    flex: 5;
+}
